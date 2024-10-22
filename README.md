@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     CLIENTES {
         BIGINT id PK "PRIMARY KEY GENERATED ALWAYS AS IDENTITY"
@@ -17,3 +18,4 @@ erDiagram
     }
 
     CLIENTES ||--o{ PRESTAMOS : "cliente_id"
+```
